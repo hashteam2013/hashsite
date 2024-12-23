@@ -210,12 +210,14 @@ Give us a try once, and see it for yourself.</p>
               <h3 className="text-6xl text-black uppercase font-bold">22+</h3>
             </div>
             <div className="relative z-50">
-              <p className="text-xl mb-4">Team Members</p>
-              <h3 className="text-6xl text-black uppercase font-bold">22+</h3>
+              <p className="text-xl mb-4">Years of experience
+              </p>
+              <h3 className="text-6xl text-black uppercase font-bold">15+</h3>
             </div>
             <div className="relative z-50">
-              <p className="text-xl mb-4">Team Members</p>
-              <h3 className="text-6xl text-black uppercase font-bold">22+</h3>
+              <p className="text-xl mb-4">Happy Customers
+              </p>
+              <h3 className="text-6xl text-black uppercase font-bold">25K</h3>
             </div>
             <img src="/images/bg-counter.svg" className="w-auto absolute -top-80 z-0" width={100} height={100} />
           </div>
@@ -223,7 +225,7 @@ Give us a try once, and see it for yourself.</p>
 
         <Testimonials/>
 
-        <div className="flex flex-col text-center items-center justify-center py-32 px-24 gap-6">
+        <div className="flex flex-col text-center items-center justify-center pt-32 px-24 gap-6">
             <div className="relative">
               <h4 className="text-base text-primary capitalize">Achievement</h4>
               <div className="absolute top-2 -left-20 w-14 h-1 bg-primary"></div>
@@ -238,8 +240,9 @@ Give us a try once, and see it for yourself.</p>
                 <img src="/images/img-s-14.webp" className="w-auto absolute top-0 -left-80" width={80} height={100} />
                 <img src="/images/img-s-15.webp" className="w-auto absolute top-0 -right-96" width={80} height={100} />
               </div>
-              <div className="">
-                <img src="/images/img-s-9-dark4.png" className="w-4/5 mx-auto"/>
+              <div className="relative overflow-y-hidden w-1/2">
+                <img src="/images/img-s-9-dark4.png" className="w-4/5 mx-auto relative z-50"/>
+                <img src="/images/roll-circle.png" className="w-4/5 mx-auto absolute top-40 animate-rotconnect opacity-50 left-6 z-10"/>
               </div>
         </div>
 

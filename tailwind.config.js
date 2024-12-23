@@ -82,6 +82,16 @@ module.exports = {
             top: '50px',
           },
         },
+        rotconnect: {
+          '0%': {
+            rotate: '0deg',
+            
+          },
+          '100%': {
+            rotate: '360deg',
+            
+          },
+        },
       },
         animation:{
           rollimg: 'rollimg linear 100s infinite',
@@ -95,6 +105,7 @@ module.exports = {
           'growimg-delay8': 'growimg 10s linear infinite 8s',
           'growimg-delay9': 'growimg 10s linear infinite 9s',
           'bannerot': 'bannerot linear 5s infinite',
+          'rotconnect': 'rotconnect linear 20s infinite',
         },
       rotate: {
         'x-[0.5deg]': '0.5deg',
