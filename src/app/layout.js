@@ -159,7 +159,7 @@ Give us a try once, and see it for yourself.</p>
           </div>
         </div>
 
-        <div className="flex flex-col justify-center bg-greyl pt-10 px-24 mb-52 gap-6">
+        <div className="flex flex-col justify-center bg-greyl pt-10 px-24 mb-80 gap-6">
             {/* <img src="/images/img-s-10.png" className="absolute top-0 left-0 opacity-30" width={400} height={100} /> */}
             
             <div className="relative w-full flex flex-col my-10 mx-auto items-center">
@@ -198,11 +198,26 @@ Give us a try once, and see it for yourself.</p>
             </div>
         </div>
 
-        <div className="flex flex-col items-center jusify-center py-20 px-24">
-          <div className="flex justify-between items-center w-3/5">
+        <div className="flex flex-col bg-servicend items-center jusify-center pt-32 pb-80 px-24 mb-10">
+          <div className="flex justify-between items-center mb-24 w-3/5">
             <img src="/images/fanfact-1.jpg" className="w-auto transform -rotate-6" width={100} height={100} />
             <h2 className="text-7xl leading-11 text-center capitalize"> <span className="font-semibold"> company </span> <br/> inside</h2>
-            <img src="/images/fanfact-2.jpg" className="w-auto transform rotate-180" width={100} height={100} />
+            <img src="/images/fanfact-2.jpg" className="w-auto transform rotate-6" width={100} height={100} />
+          </div>
+          <div className="flex justify-between relative items-center w-1/2 mt-24 ">
+            <div className="relative z-50">
+              <p className="text-xl mb-4">Team Members</p>
+              <h3 className="text-6xl text-black uppercase font-bold">22+</h3>
+            </div>
+            <div className="relative z-50">
+              <p className="text-xl mb-4">Team Members</p>
+              <h3 className="text-6xl text-black uppercase font-bold">22+</h3>
+            </div>
+            <div className="relative z-50">
+              <p className="text-xl mb-4">Team Members</p>
+              <h3 className="text-6xl text-black uppercase font-bold">22+</h3>
+            </div>
+            <img src="/images/bg-counter.svg" className="w-auto absolute -top-80 z-0" width={100} height={100} />
           </div>
         </div>
 

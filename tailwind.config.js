@@ -36,7 +36,7 @@ module.exports = {
         'rollbef': "radial-gradient(150% 150% at 50% 0%,rgba(255,255,255,0) 0%,#EEDDE8 100%)",
         'bluebox': "radial-gradient(450% 200% at 50% 20%,rgba(211,245,251,.1) 0%,#A5EAF7 100%)",
         'service': "url('/images/img-s-11.png')",
-        'servicend': "url(/images/)",
+        'servicend': "url(/images/fanfact-bg.jpg)",
        },
        boxShadow: {
         inner: '0 15px 45px rgb(59 194 219 / 55%)',
