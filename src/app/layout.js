@@ -8,6 +8,7 @@ import Image from "next/image";
 import Button from "@/Components/Button/Buttons";
 import Icons from "@/Components/Icons/Icons";
 import BannerSkilled from "@/Components/Banners/BannerSkilled";
+import Testimonials from "@/Components/Testimonials/Testimonials";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -197,6 +198,16 @@ Give us a try once, and see it for yourself.</p>
             </div>
         </div>
 
+        <div className="flex flex-col items-center jusify-center py-20 px-24">
+          <div className="flex justify-between items-center w-3/5">
+            <img src="/images/fanfact-1.jpg" className="w-auto transform -rotate-6" width={100} height={100} />
+            <h2 className="text-7xl leading-11 text-center capitalize"> <span className="font-semibold"> company </span> <br/> inside</h2>
+            <img src="/images/fanfact-2.jpg" className="w-auto transform rotate-180" width={100} height={100} />
+          </div>
+        </div>
+
+        <Testimonials/>
+
         <div className="flex flex-col text-center items-center justify-center py-32 px-24 gap-6">
             <div className="relative">
               <h4 className="text-base text-primary capitalize">Achievement</h4>
@@ -216,6 +227,9 @@ Give us a try once, and see it for yourself.</p>
                 <img src="/images/img-s-9-dark4.png" className="w-4/5 mx-auto"/>
               </div>
         </div>
+
+       
+
         <Footer/>
       </body>
     </html>
