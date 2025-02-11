@@ -14,29 +14,42 @@ const Banners = () =>{
 
     return(
         <>
-            <div className="banner py-6 px-16 bg-hero bg-contain bg-right bg-no-repeat overflow-y-hidden">
-                <div className="flex flex-wrap items-center lg:flex-nowrap">
-                    <div className="w-full lg:w-1/2">
-                        <div className=" pl-28 pr-10">
-                            <h4 className="text-2xl text-gray-500">We are #hashers</h4>
-                            <h2 className="text-5xxl font-poppins font-bold leading-11">Design, Development & Digital Marketing Services</h2>
-                            <p className="text-2xl text-greyc mt-2 mb-5">Want to truly “Go Digital”, we are here to help you with your vision and mission for your business.</p>
-                            <Button 
-                            className="bg-mainbtn py-3 w-40 text-white font-bold shadow-inner">
-                                Get a Quote
-                            </Button>
-                            
+            <div className="banner py-6 px-16 bg-hero bg-contain bg-right bg-no-repeat -mt-32 max-w-screen-1xl mx-auto">
+                <div className="flex flex-wrap justify-center mt-48">
+                    <h2 className="text-8xl font-medium text-black">Creative & Digital Agency</h2>
+                </div>
+                <div className="flex flex-wrap items-end lg:flex-nowrap mt-20 mx-16">
+                    <div className="w-full lg:w-1/3 relative">
+                        <div className="relative">
+                            <Image src="/images/banner-media.png" className="w-4/5 px-6" alt="hash" width={200} height={100} quality={100} /> 
+                                <div className="absolute bottom-52 -left-52 flex w-auto items-center gap-x-10 transform transform -rotate-90">
+                                    <h4 className="font-bold capitalize">Contact Us</h4>
+                                    <Image src="/images/banner-media13.png" width={20} height={20} className="w-auto mx-4 transform rotate-90" quality={100} alt="hash" />
+                                    <div className="flex items-center gap-2">
+                                        <Image src="/images/banner-media8.png" width={20} height={20} className="w-auto transform rotate-90" quality={100} alt="hash" />
+                                        <Image src="/images/banner-media9.png" width={20} height={20} className="w-auto transform rotate-90" quality={100} alt="hash" />
+                                        <Image src="/images/banner-media10.png" width={20} height={20} className="w-auto transform rotate-90" quality={100} alt="hash" />
+                                        <Image src="/images/banner-media11.png" width={20} height={20} className="w-auto transform rotate-90" quality={100} alt="hash" />
+                                        <Image src="/images/banner-media12.png" width={20} height={20} className="w-auto transform rotate-90" quality={100} alt="hash" />
+                                    </div>
+                                </div>
+                        </div>
+                        <div className="absolute top-8 -right-80 flex w-3/4 items-start">
+                            <Image src="/images/banner-media7.png" className="w-auto text-right" width={20} height={20} alt="hash" />
+                            <p className="text-2xl"> <strong> DARK & LIGHT </strong>  with <br/> creative and mystical Website.</p>
                         </div>
                     </div>
-                    <div className="w-full lg:w-1/2 min-h-custom">
-                        <div className="flex relative">
-                            <Image src="/images/shape1.png" alt="banner-media" className="w-full contain position-top absolute top-2" width={500} height={250} />
-                            <Image src="/images/shape2-1.png" alt="banner-media" className="w-full contain position-top absolute top-2" width={500} height={250} />
-                            <Image src="/images/shape3.png" alt="banner-media" className="w-full contain position-top absolute top-2" width={500} height={250} />
-                            <Image src="/images/shape4.png" alt="banner-media" className="w-full contain position-top absolute top-2" width={500} height={250} />
-                            <Image src="/images/shape5.png" alt="banner-media" className="w-full contain position-top absolute top-2" width={500} height={250} />
-                            <Image src="/images/shape6.png" alt="banner-media" className="w-full contain position-top absolute top-2" width={500} height={250} />
-                            <Image src="/images/shape7.png" alt="banner-media" className="w-full contain position-top absolute top-2" width={500} height={250} />
+                    <div className="w-full lg:w-2/3 h-full">
+                        <div className="relative flex justify-center bottom-0 -ml-40">
+                                <Image src="/images/banner-media2.png" className="w-auto absolute bottom-16 left-20" alt="hash" width={200} height={100} quality={100}/>
+                                <Image src="/images/banner-media14.png" className="w-auto" alt="hash" width={800} height={200} quality={100} />
+                                <Image src="/images/banner-media4.png" className="w-auto absolute bottom-16 right-10" alt="hash" width={150} height={50} quality={100}/>
+                            <div className="absolute -top-10 right-0">
+                                <div className="relative w-full flex justify-center items-center">
+                                    <Image src="/images/banner-media5.png" className="absolute" alt="hash" width={35} height={35}/>
+                                    <Image src="/images/banner-media6.png" className="w-auto animate-spin2" alt="hash" width={100} height={100}/>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     {openModal && (

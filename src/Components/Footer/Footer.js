@@ -1,46 +1,39 @@
 import Image from "next/image";
 import Link from "next/link";
+import ProjectMind from "../ProjectMind/ProjectMind";
+import NavigationFooter from "../Navigation/NavigationFooter";
+import NavigationSocial from "../Navigation/NavigationSocial";
 
 const Footer = () =>{
     return(
         <>
-            <div className="bg-gradient-to-b from-white to-footbg py-10 lg:px-16 px-2">
+            {/* <div className="flex justify-between px-24 py-12 bg-footer items-center bg-cover">
+                <div className="">
+                    <img src="/images/cta2-img1.png" className="w-full" alt="hash" width={100} height={100} />
+                </div>
+                <div className="text-center flex flex-col items-center gap-4">
+                    <h2 className="text-primary text-5xl font-bold">Have Project in mind</h2>
+                    <p className="text-lg font-semibold">Get started for 1 Month free trial No Purchace required </p>
+                    <Link className="bg-primary text-white hover:bg-navydarkbg p-6 rounded-full text-lg transform animate-pulse hover:rotate-0 -rotate-45" href="#"> <Icons name="right" /> </Link>
+                </div>
+                <div className="">
+                    <img src="/images/cta2-img2.png" className="w-full" alt="hash" width={100} height={100} />
+                </div>
+            </div> */}
+           
+            <div className="bg-gradient-to-b from-white to-footbg py-10 lg:px-24 px-8">
                 <div className="flex flex-wrap lg:flex-nowrap">
                     <div className="w-full md:w-1/2 lg:w-1/4 mb-4 lg:mb-0">
                         <div className="footer-logo flex flex-col gap-4 pr-8">
                             <Image alt="image" src="/images/hashsoftware-1.svg" width={200} height={100}/> 
                             <p className="text-gray-500">Hash Softwares is the brainchild of Mr. Sourabh Sachdeva, the founder of the company. Our brand is the perfect amalgamation of ample experience with the same newness with which we started our company.</p>
-                            <ul className="flex gap-3">
-                                <li>
-                                <Link href="/" target="_blank"> <Image src="/images/facebook.png" width={30} height={30} alt="insta" /> </Link>
-                                </li>
-                                <li>
-                                    <Image src="/images/insta.png" width={30} height={30} alt="insta" />
-                                </li>
-                                <li>
-                                    <Image src="/images/linkedin.png" width={30} height={30} alt="linkedin" />
-                                </li>
-                                <li>
-                                    <Image src="/images/skype.png" width={30} height={30} alt="skype" />
-                                </li>
-                                <li>
-                                    <Image src="/images/svgexport-1.svg" width={30} height={30} alt="insta" />
-                                </li>
-                                
-                            </ul>
+                            <NavigationSocial/>
                         </div>
                     </div>
                     <div className="w-full md:w-1/2 lg:w-1/4">
                         <div className="footer-list">
                             <h2 className="text-black text-xl font-bold mb-4">Quick Links</h2>
-                            <ul className="text-gray-500 font-normal flex flex-col gap-3">
-                                <li className="hover:text-black cursor-pointer">Home</li>
-                                <li className="hover:text-black cursor-pointer">About</li>
-                                <li className="hover:text-black cursor-pointer">Services</li>
-                                <li className="hover:text-black cursor-pointer">Portfolio</li>
-                                <li className="hover:text-black cursor-pointer">Blog</li>
-                                <li className="hover:text-black cursor-pointer">Resources</li>
-                            </ul>
+                            <NavigationFooter/>
                         </div>
                     </div>
                     <div className="w-full md:w-1/2 lg:w-1/4">
@@ -60,15 +53,15 @@ const Footer = () =>{
                         <h2 className="text-black text-xl font-bold mb-4">Get in touch</h2>
                         <div className="flex flex-col gap-4">
                             <div className="flex items-start gap-2">
-                                <Image src="/images/Mask-group.png" className="pt-1" alt="" width={20} height={20} />
+                                <Image src="/images/Mask-group.png" className="pt-1" alt="hash" width={20} height={20} />
                                 <p className="text-gray-500"> <Link href="/" className="hover:text-primary"> TDi, Taj Plaza, 505, Second Floor, Airport Road, Sector 118, Sahibzada Ajit Singh Nagar, Punjab 160055</Link></p>
                             </div>
                             <div className="flex items-center gap-2">
-                                <Image src="/images/Group-1107.png" alt="" width={20} height={20} />
+                                <Image src="/images/Group-1107.png" alt="hash" width={20} height={20} />
                                 <p className="text-gray-500"> <Link href="tel:919056559922" className="hover:text-primary"> +91 90565 59922 </Link></p>
                             </div>
                             <div className="flex items-center gap-2">
-                                <Image src="/images/Group.png" alt="" width={20} height={20} />
+                                <Image src="/images/Group.png" alt="hash" width={20} height={20} />
                                 <p className="text-gray-500"> <Link href="mailto:Info@hashsoftware.com" className="hover:text-primary"> Info@hashsoftware.com </Link></p>
                             </div>
                         </div>
@@ -76,7 +69,7 @@ const Footer = () =>{
                    
                 </div>
             </div>
-            <div className="bg-footbg flex justify-center text-gray-500 items-center py-4 border-t-2">
+            <div className="bg-footbg flex justify-center text-gray-500 items-center p-4 border-t-2">
                 <p className="text-sm ">© Copyright 2024 - Hash Software (Formerly as Hash Softwares)</p>
             </div>
         </>
