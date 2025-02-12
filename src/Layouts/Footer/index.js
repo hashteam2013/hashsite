@@ -1,11 +1,11 @@
 import Image from "next/image";
-import NavigationFooter from "../Navigation/NavigationFooter";
-import NavigationService from "../Navigation/NavigationService";
-import NavigationSupport from "../Navigation/NavigationSupport";
+import NavigationFooter from "@Compoenents/Navigation/NavigationFooter";
+import NavigationService from "@Compoenents/Navigation/NavigationService";
+import NavigationSupport from "@Compoenents/Navigation/NavigationSupport";
 import Link from "next/link";
 import { Navigation } from "swiper/modules";
 
-const FooterNew = () =>{
+const Footer = () =>{
     return(
         <>
             <div className="bg-footerb bg-cover bg-no-repeat bg-top pt-20">
@@ -74,4 +74,4 @@ const FooterNew = () =>{
         </>
     )
 };
-export default FooterNew;
+export default Footer;

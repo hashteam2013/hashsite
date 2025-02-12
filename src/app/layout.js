@@ -1,18 +1,16 @@
 // `use suppressHydrationWarning`
 import { Geist, Geist_Mono } from "next/font/google";
-import Header from "@/Components/Header/Header";
-import Footer from "@/Components/Footer/Footer";
-import HeaderNew from "@/Components/Header/HeaderNew";
-import FooterNew from "@/Components/Footer/FooterNew";
+import Header from "@/Layouts/Header";
+import Footer from "@/Layouts/Footer";
 import "./globals.css";
 
 export default function RootLayout({children}) {
   return (
     <html lang="en">
-      <body>
-        <HeaderNew/>
+      <body className="bg-[#F2F1F6]">
+        <Header/>
         {children}
-        <FooterNew/>
+        <Footer/>
       </body>
     </html>
   );

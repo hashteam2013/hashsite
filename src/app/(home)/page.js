@@ -1,18 +1,20 @@
 `use client`
 import Image from "next/image";
 import Link from "next/link";
-import Banners from "@/Components/Banners/Banners";
+import HomepageBanner from "@/Components/Banners/HomepageBanner";
 import BrandCarousel from "@/Components/Carousel/BrandCarousel";
 import Icons from "@/Components/Icons/Icons";
 import TestiCarousel from "@/Components/Carousel/TestiCarousel";
 import Accordion from "@/Components/Accordion/Accordion";
+import HeroBackground from "@Assets/background/hero-background.png"
 
 export default function Homepage() {
     return (
-        <div>
-            <Banners/>
+        <>
+            <HomepageBanner backgroundImage={HeroBackground} heading="Creative & Digital Agency"/>
             <BrandCarousel/>
-            <div className="py-20 bg-rollang">
+            <div className="bg-linear from-cyan-500 to-blue-500 h-screen"></div>
+            <div className="bg-linear-to-r from-cyan-500 to-blue-500">
                 <div className="max-w-screen-1xl mx-auto">
                     <div className="flex relative flex-col justify-center items-center">
                         <div className="w-1/2 relative">
@@ -296,6 +298,6 @@ export default function Homepage() {
                 <Image src="/images/shapes.png" className="w-auto absolute top-10 left-0" width={100} height={100} alt="test"/>
                 <Image src="/images/clients2.png" className="w-auto absolute bottom-10 right-0" width={100} height={100} alt="test"/>
             </div>
-        </div>
+        </>
     );
 }
