@@ -25,7 +25,7 @@ const Footer = () =>{
                 <div className="flex flex-wrap lg:flex-nowrap">
                     <div className="w-full md:w-1/2 lg:w-1/4 mb-4 lg:mb-0">
                         <div className="footer-logo flex flex-col gap-4 pr-8">
-                            <Image alt="image" src="/images/hashsoftware-1.svg" width={200} height={100}/> 
+                            <Image alt="image" src="/images/hashsoftware-1.svg" width={200} height={100} alt="test"/> 
                             <p className="text-gray-500">Hash Softwares is the brainchild of Mr. Sourabh Sachdeva, the founder of the company. Our brand is the perfect amalgamation of ample experience with the same newness with which we started our company.</p>
                             <NavigationSocial/>
                         </div>
@@ -57,7 +57,7 @@ const Footer = () =>{
                                 <p className="text-gray-500"> <Link href="/" className="hover:text-primary"> TDi, Taj Plaza, 505, Second Floor, Airport Road, Sector 118, Sahibzada Ajit Singh Nagar, Punjab 160055</Link></p>
                             </div>
                             <div className="flex items-center gap-2">
-                                <Image src="/images/Group-1107.png" alt="hash" width={20} height={20} />
+                                <Image src="/images/Group-1107.png" alt="hash" width={20} height={20}/>
                                 <p className="text-gray-500"> <Link href="tel:919056559922" className="hover:text-primary"> +91 90565 59922 </Link></p>
                             </div>
                             <div className="flex items-center gap-2">

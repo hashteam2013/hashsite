@@ -73,7 +73,7 @@ I look forward to more projects in the future with them. </p>
                 <div className="flex flex-col w-5/12 gap-6 items-center border-b-2 border-primary rounded-lg shadow-xl p-6">
                     <h4 className="text-xl font-semibold"> Website Design & Development
                     </h4>
-                    <Image src="/images/rbrgc.png" quality={100}  alt="hash"className="w-auto rounded-full" width={100} height={100} />
+                    <Image src="/images/rbrgc.png" quality={100}  alt="hash" className="w-auto rounded-full" width={100} height={100} />
                     <p className="text-greyc text-center"> Hash Software has delivered another great solution for us, they have communicated regularly about updates and progress of the project and have completed the project on time and on schedule. We will definitely use the team again for our other projects. </p>
                     
                     <div className="flex items-center gap-4">

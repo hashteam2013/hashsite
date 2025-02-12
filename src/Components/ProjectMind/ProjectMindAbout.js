@@ -13,9 +13,13 @@ const ProjectMindAbout = () =>{
                 
                 <p className="text-lg text-black z-20">Our services solve any business problem.</p>
                 <Image src="/images/uih7.png" className="w-auto absolute z-0 top-10 " quality={100} alt="hash" width={500} height={100} />
-                <Button variant="solid" className="">Contact Us <Image src="/images/Highlight_05.png" className="w-auto absolute -top-6 -left-6" width={20} height={20} /> <Image src="/images/Highlight_05.png" className="w-auto absolute -bottom-6 -right-6 transform rotate-180" width={20} height={20} /> </Button>
-                {/* <Button className="bg-primary border-2 border-primary mt-4 flex items-center font-semibold py-4 px-8 relative z-20 text-white rounded-full hover:bg-transparent hover:text-primary"> Learn More <Image src="/images/Highlight_05.png" className="w-auto absolute -top-6 -left-6" width={20} height={20} />
-                <Image src="/images/Highlight_05.png" className="w-auto absolute -bottom-6 transform rotate-180 -right-6" width={20} height={20} />
+                <Button variant="solid" className="">Contact Us
+                <Image src="/images/Highlight_05.png" className="w-auto absolute -top-6 -left-6" width={20} height={20} alt="test"/>
+                <Image src="/images/Highlight_05.png" className="w-auto absolute -bottom-6 -right-6 transform rotate-180" width={20} height={20} alt="test"/>
+                </Button>
+                {/* <Button className="bg-primary border-2 border-primary mt-4 flex items-center font-semibold py-4 px-8 relative z-20 text-white rounded-full hover:bg-transparent hover:text-primary"> Learn More
+                <Image src="/images/Highlight_05.png" className="w-auto absolute -top-6 -left-6" width={20} height={20} alt="test"/>
+                <Image src="/images/Highlight_05.png" className="w-auto absolute -bottom-6 transform rotate-180 -right-6" width={20} height={20} alt="test"/>
                  </Button> */}
             </div>
         </>

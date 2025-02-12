@@ -47,7 +47,7 @@ const TestiCarousel = () => {
                   <div className="bg-darkn text-white p-6 rounded-xl w-full">
                       <div className="flex flex-col gap-4">
                           <div className="flex gap-6 items-center">
-                              <Image src="/images/testi-thumb.png" className="w-auto" width={50} height={50} quality={100} />
+                              <Image src="/images/testi-thumb.png" className="w-auto" width={50} height={50} quality={100} alt="test"/>
                               <span className="py-2 px-4 rounded-full border border-white">S Schwartz</span>
                           </div>
                           <div className="flex flex-wrap">
@@ -55,7 +55,7 @@ const TestiCarousel = () => {
                           </div>
                           <div className="flex flex-wrap justify-between items-center">
                               <span className="py-2 px-4 rounded-full border border-white">S Schwartz</span>
-                              <Image src="/images/star.png" className="w-auto" width={300} height={100} />
+                              <Image src="/images/star.png" className="w-auto" width={300} height={100} alt="test"/>
                           </div>
                       </div>
                   </div>
@@ -64,7 +64,7 @@ const TestiCarousel = () => {
                   <div className="bg-darkn text-white p-6 rounded-xl w-full">
                       <div className="flex flex-col gap-4">
                           <div className="flex gap-6 items-center">
-                              <Image src="/images/testi-thumb.png" className="w-auto" width={50} height={50} quality={100} />
+                              <Image src="/images/testi-thumb.png" className="w-auto" width={50} height={50} quality={100} alt="test"/>
                               <span className="py-2 px-4 rounded-full border border-white">S Schwartz</span>
                           </div>
                           <div className="flex flex-wrap">
@@ -72,7 +72,7 @@ const TestiCarousel = () => {
                           </div>
                           <div className="flex flex-wrap justify-between items-center">
                               <span className="py-2 px-4 rounded-full border border-white">S Schwartz</span>
-                              <Image src="/images/star.png" className="w-auto" width={300} height={100} />
+                              <Image src="/images/star.png" className="w-auto" width={300} height={100} alt="test"/>
                           </div>
                       </div>
                   </div>
@@ -81,7 +81,7 @@ const TestiCarousel = () => {
                   <div className="bg-darkn text-white p-6 rounded-xl w-full">
                       <div className="flex flex-col gap-4">
                           <div className="flex gap-6 items-center">
-                              <Image src="/images/testi-thumb.png" className="w-auto" width={50} height={50} quality={100} />
+                              <Image src="/images/testi-thumb.png" className="w-auto" width={50} height={50} quality={100} alt="test"/>
                               <span className="py-2 px-4 rounded-full border border-white">S Schwartz</span>
                           </div>
                           <div className="flex flex-wrap">
@@ -89,7 +89,7 @@ const TestiCarousel = () => {
                           </div>
                           <div className="flex flex-wrap justify-between items-center">
                               <span className="py-2 px-4 rounded-full border border-white">S Schwartz</span>
-                              <Image src="/images/star.png" className="w-auto" width={300} height={100} />
+                              <Image src="/images/star.png" className="w-auto" width={300} height={100} alt="test"/>
                           </div>
                       </div>
                   </div>
@@ -98,7 +98,7 @@ const TestiCarousel = () => {
                   <div className="bg-darkn text-white p-6 rounded-xl w-full">
                       <div className="flex flex-col gap-4">
                           <div className="flex gap-6 items-center">
-                              <Image src="/images/testi-thumb.png" className="w-auto" width={50} height={50} quality={100} />
+                              <Image src="/images/testi-thumb.png" className="w-auto" width={50} height={50} quality={100} alt="test"/>
                               <span className="py-2 px-4 rounded-full border border-white">S Schwartz</span>
                           </div>
                           <div className="flex flex-wrap">
@@ -106,7 +106,7 @@ const TestiCarousel = () => {
                           </div>
                           <div className="flex flex-wrap justify-between items-center">
                               <span className="py-2 px-4 rounded-full border border-white">S Schwartz</span>
-                              <Image src="/images/star.png" className="w-auto" width={300} height={100} />
+                              <Image src="/images/star.png" className="w-auto" width={300} height={100} alt="test" />
                           </div>
                       </div>
                   </div>

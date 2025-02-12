@@ -56,19 +56,19 @@ const contact = () =>{
                         <div className="flex flex-col justify-center gap-6 h-full">
                             <div className="flex gap-4 items-center text-white">
                                 <div className="bg-white p-2 rounded-full">
-                                <Image src="/images/Group-1107.png" className="w-auto" width={50} height={50} />
+                                <Image src="/images/Group-1107.png" className="w-auto" width={50} height={50} alt="test"/>
                                 </div>
                                 <p className="text-base">+91 90565 59922</p>
                             </div>
                             <div className="flex gap-4 items-center text-white">
                                 <div className="bg-white p-2 rounded-full">
-                                    <Image src="/images/Group.png" className="w-auto" width={50} height={50} />
+                                    <Image src="/images/Group.png" className="w-auto" width={50} height={50} alt="test"/>
                                 </div>
                                 <p className="text-base ">Info@hashsoftware.com</p>
                             </div>
                             <div className="flex gap-4 items-center text-white">
                                 <div className="bg-white p-2 rounded-full">
-                                <Image src="/images/Mask-group.png" className="w-16" width={50} height={50} />
+                                <Image src="/images/Mask-group.png" className="w-16" width={50} height={50} alt="test"/>
                                 </div>
                                 <p className="text-base">TDi, Taj Plaza, 505, Second Floor, Airport Road, Sector 118, Sahibzada Ajit Singh Nagar, Punjab 160055</p>
                             </div>
