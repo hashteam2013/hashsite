@@ -18,32 +18,32 @@ const Header = () =>{
                             <li className="px-2.5">
                                 <Link href="" className="inline-block p-2.5 text-xl font-medium">Home</Link>
                             </li>
-                            <li class="flex items-center">
-                                <span class="block w-1.5 h-1.5 rounded-full bg-primary"></span>
+                            <li className="flex items-center">
+                                <span className="block w-1.5 h-1.5 rounded-full bg-primary"></span>
                             </li>
                             <li className="px-2.5">
                                 <Link href="" className="inline-block p-2.5 text-xl font-medium">About</Link>
                             </li>
-                            <li class="flex items-center">
-                                <span class="block w-1.5 h-1.5 rounded-full bg-primary"></span>
+                            <li className="flex items-center">
+                                <span className="block w-1.5 h-1.5 rounded-full bg-primary"></span>
                             </li>
                             <li className="px-2.5">
                                 <Link href="" className="inline-block p-2.5 text-xl font-medium">Testimonials</Link>
                             </li>
-                            <li class="flex items-center">
-                                <span class="block w-1.5 h-1.5 rounded-full bg-primary"></span>
+                            <li className="flex items-center">
+                                <span className="block w-1.5 h-1.5 rounded-full bg-primary"></span>
                             </li>
                             <li className="px-2.5">
                                 <Link href="" className="inline-block p-2.5 text-xl font-medium">Services</Link>
                             </li>
-                            <li class="flex items-center">
-                                <span class="block w-1.5 h-1.5 rounded-full bg-primary"></span>
+                            <li className="flex items-center">
+                                <span className="block w-1.5 h-1.5 rounded-full bg-primary"></span>
                             </li>
                             <li className="px-2.5">
                                 <Link href="" className="inline-block p-2.5 text-xl font-medium">Case Study</Link>
                             </li>
-                            <li class="flex items-center">
-                                <span class="block w-1.5 h-1.5 rounded-full bg-primary"></span>
+                            <li className="flex items-center">
+                                <span className="block w-1.5 h-1.5 rounded-full bg-primary"></span>
                             </li>
                             <li className="px-2.5">
                                 <Link href="" className="inline-block p-2.5 text-xl font-medium">Blog</Link>
@@ -52,7 +52,7 @@ const Header = () =>{
                     </div> 
                 </div>
                 <div className="flex-initial">
-                    <button class="flex p-2.5 border border-[#CECFD0] rounded-[15px] gap-5 items-center text-xl font-medium pr-4 bg-white">
+                    <button className="flex p-2.5 border border-[#CECFD0] rounded-[15px] gap-5 items-center text-xl font-medium pr-4 bg-white">
                         <Icons name="right" className="bg-red-200" />
                         Get in Touch
                     </button>

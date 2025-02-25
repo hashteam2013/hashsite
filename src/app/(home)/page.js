@@ -1,4 +1,5 @@
-`use client`
+"use client"
+import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import HomepageBanner from "@/Components/Banners/HomepageBanner";
@@ -7,13 +8,119 @@ import Icons from "@/Components/Icons/Icons";
 import TestiCarousel from "@/Components/Carousel/TestiCarousel";
 import Accordion from "@/Components/Accordion/Accordion";
 import HeroBackground from "@Assets/background/hero-background.png"
+import ButtonImage0 from "@Assets/images/animated-button/Buttons.png"
+import ButtonImage1 from "@Assets/images/animated-button/Buttons-1.png"
+import ButtonImage2 from "@Assets/images/animated-button/Buttons-2.png"
+import ButtonImage3 from "@Assets/images/animated-button/Buttons-3.png"
+import ButtonImage4 from "@Assets/images/animated-button/Buttons-4.png"
+import ButtonImage5 from "@Assets/images/animated-button/Buttons-5.png"
+import ButtonImage6 from "@Assets/images/animated-button/Buttons-6.png"
+import ButtonImage7 from "@Assets/images/animated-button/Buttons-7.png"
+import ButtonImage8 from "@Assets/images/animated-button/Buttons-8.png"
+import ButtonImage9 from "@Assets/images/animated-button/Buttons-9.png"
+import ButtonImage10 from "@Assets/images/animated-button/Buttons-10.png"
+import ButtonImage11 from "@Assets/images/animated-button/Buttons-11.png"
+import ButtonImage12 from "@Assets/images/animated-button/Buttons-12.png"
+import ButtonImage13 from "@Assets/images/animated-button/Buttons-13.png"
+import ButtonImage14 from "@Assets/images/animated-button/Buttons-14.png"
+import ButtonImage15 from "@Assets/images/animated-button/Buttons-15.png"
+import ButtonImage16 from "@Assets/images/animated-button/Buttons-16.png"
+import ButtonImage17 from "@Assets/images/animated-button/Buttons-17.png"
+import ButtonImage18 from "@Assets/images/animated-button/Buttons-18.png"
+import ButtonImage19 from "@Assets/images/animated-button/Buttons-19.png"
+import ButtonImage20 from "@Assets/images/animated-button/Buttons-20.png"
 
 export default function Homepage() {
+    // console.log("ButtonImage",ButtonImage);
+    useEffect(() => {
+            const canvas = document.getElementById("myCanvas");
+            if (!canvas) return;
+            const ctx = canvas.getContext("2d");
+            
+            if (!ctx) {
+              console.error("Canvas context not found");
+              return;
+            }
+            // console.log("ButtonImage",ButtonImage);
+            const img = new window.Image();
+            const img1 = new window.Image();
+            const img2 = new window.Image();
+            const img3 = new window.Image();
+            const img4 = new window.Image();
+            const img5 = new window.Image();
+            const img6 = new window.Image();
+            const img7 = new window.Image();
+            const img8 = new window.Image();
+            const img9 = new window.Image();
+            const img11 = new window.Image();
+            const img10 = new window.Image();
+            const img12 = new window.Image();
+            const img13 = new window.Image();
+            const img14 = new window.Image();
+            const img15 = new window.Image();
+            const img16 = new window.Image();
+            const img17 = new window.Image();
+            const img18 = new window.Image();
+            const img19 = new window.Image();
+            const img20 = new window.Image();
+            img.src = ButtonImage0.src;
+            img1.src = ButtonImage1.src;
+            img2.src = ButtonImage2.src;
+            img3.src = ButtonImage3.src;
+            img4.src = ButtonImage4.src;
+            img5.src = ButtonImage5.src;
+            img6.src = ButtonImage6.src;
+            img7.src = ButtonImage7.src;
+            img8.src = ButtonImage8.src;
+            img9.src = ButtonImage9.src;
+            img10.src = ButtonImage10.src;
+            img11.src = ButtonImage11.src;
+            img12.src = ButtonImage12.src;
+            img13.src = ButtonImage13.src;
+            img14.src = ButtonImage14.src;
+            img15.src = ButtonImage15.src;
+            img16.src = ButtonImage16.src;
+            img17.src = ButtonImage17.src;
+            img18.src = ButtonImage18.src;
+            img19.src = ButtonImage19.src;
+            img20.src = ButtonImage20.src;
+            
+            img.onload = () => {
+              let x = 0;
+              const speed = 0; // Speed of movement
+              const interval = setInterval(() => {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                ctx.drawImage(img, 1320, 180, ButtonImage0.width / 2, ButtonImage0.height / 2);
+                ctx.drawImage(img1, 151, 97, ButtonImage1.width / 2, ButtonImage1.height / 2);
+                ctx.drawImage(img2, 1040, 46, ButtonImage2.width / 2, ButtonImage2.height / 2);
+                ctx.drawImage(img3, 1464, 73, ButtonImage3.width / 2, ButtonImage3.height / 2);
+                ctx.drawImage(img4, 684, 49, ButtonImage4.width / 2, ButtonImage4.height / 2);
+                ctx.drawImage(img5, 167, 346, ButtonImage5.width / 2, ButtonImage5.height / 2);
+                ctx.drawImage(img6, 450, 316, ButtonImage6.width / 2, ButtonImage6.height / 2);
+                ctx.drawImage(img7, 777, 252, ButtonImage7.width / 2, ButtonImage7.height / 2);
+                ctx.drawImage(img8, 1085, 253, ButtonImage8.width / 2, ButtonImage8.height / 2);
+                ctx.drawImage(img9, 1556, 305, ButtonImage9.width / 2, ButtonImage9.height / 2);
+                
+
+                x += speed;
+                if (x > canvas.width) {
+                  x = -img.width; // Reset when out of bounds
+                }
+              }, 1000 / 40); // 40 FPS
+
+            };
+            return () => clearInterval(interval); // Cleanup on unmount
+
+    }, []); // Empty dependency array to run only once
     return (
         <>
             <HomepageBanner backgroundImage={HeroBackground} heading="Creative & Digital Agency"/>
             <BrandCarousel/>
-            <div className="bg-linear from-cyan-500 to-blue-500 h-screen"></div>
+            <div className="bg-linear from-cyan-500 to-blue-500 bg-black" >
+                <canvas width="1920px" height="1080px" id="myCanvas" />  
+            </div>
+
+
             <div className="bg-linear-to-r from-cyan-500 to-blue-500">
                 <div className="max-w-screen-1xl mx-auto">
                     <div className="flex relative flex-col justify-center items-center">
